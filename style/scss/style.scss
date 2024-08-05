@@ -1,0 +1,22 @@
+:root {
+    --backgroundCorpo: #6e0b28;
+    --corMarromFraco: #ffd0d5;
+    --corEsbranquicado: #fbf9fa;
+}
+body {
+    background-color: var(--backgroundCorpo);
+    .botao_acesso {
+        background-color: var(--corMarromFraco);
+        color: var(--backgroundCorpo);
+        border: 1px solid transparent;
+    
+        transition: 0.3s;
+    }
+    .botao_acesso:hover {
+        background-color: var(--backgroundCorpo);
+        color: var(--corMarromFraco);
+        border: 1px solid var(--corMarromFraco);
+    
+        transition: 0.3s;
+    }
+}
